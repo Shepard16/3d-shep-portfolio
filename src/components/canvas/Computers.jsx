@@ -18,15 +18,15 @@ const Computers = () => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} 
+      <hemisphereLight intensity={0.35} 
       groundColor="black" />
-      <pointLight intensity={7} />
+      <pointLight intensity={10} />
       <spotLight
       ref={spotLightRef}
-      position={[-20, 100, 10]}
+      position={[-20, 50, 10]}
       angle={0.12}
       penumbra={1}
-      intensity={0}
+      intensity={0.50}
       distance={100}
       color=""
       castShadow
@@ -43,10 +43,14 @@ const Computers = () => {
 }
 
 const ComputersCanvas = () => {
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect
   return (
     <Canvas
     frameloop="demand"
     shadows
+    dpr={[1, 2]}
     camera={{ position: [20, 3, 5], fov: 25 }}
     gl={{ preserveDrawingBuffer: true }}
     >
@@ -58,6 +62,7 @@ const ComputersCanvas = () => {
         />
         <Computers />
       </Suspense>
+
       <Preload all/>
     </Canvas>
   )
