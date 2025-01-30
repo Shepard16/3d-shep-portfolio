@@ -8,16 +8,16 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    kotlin,
     tailwind,
-    nodejs,
-    mongodb,
+    java,
+    sql,
     git,
     figma,
-    docker,
+    python,
     meta,
-    starbucks,
-    tesla,
+    nav,
+    hoyskolenKristiania,
     shopify,
     carrent,
     jobit,
@@ -42,20 +42,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Web designer",
       icon: creator,
+    },
+    {
+      title: "React Native Developer",
+      icon: mobile,
     },
   ];
   
@@ -81,20 +81,20 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Kotlin",
+      icon: kotlin,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Sql",
+      icon: sql,
     },
     {
       name: "Three JS",
@@ -109,36 +109,30 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "python",
+      icon: python,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Bachelor degree in IT - Frontend and Mobile development",
+      company_name: "Høyskolen Kristiania",
+      icon: hoyskolenKristiania,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2021 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Graduated with a specialization in Frontend and Mobile development from Høyskolen Kristiania, where i gained expertise in modern web technologies such as React, Typescript, Java and many other technologies. Throughout my studies, I worked on various projects that emphasized responsive web designs, mobile-first development, and progressive web applications. Additionally, I gained hands-on experience with agile development methodologies, collaborating with team to create innovative digital solutions.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Bachelor exam at Nav",
+      company_name: "NAV",
+      icon: nav,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2024 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As part of my bachelor's degree, I collaborated with NAV to develop a user-centric digital solution focused on accessibility and usability. My responsibilities included developing an intuitive and accessible UI using React and TypeScript, ensuring a seamless and intuitive user experience. I actively engaged with users, conducting interviews and formulating targeting questions to gather insights that helped us under the developing process, making the solution more user friendly. Addiotionally, I integrated and utilized data from Amplitude and Siteimprove to enhance accessibility and user experience. The solution is actively being used and further developed today, and the project was even featured in an article on Kode24, highlighting it's real-world impact and innovation.",
       ],
     },
     {
@@ -148,10 +142,7 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "",
       ],
     },
     {
@@ -161,10 +152,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "",
       ],
     },
   ];

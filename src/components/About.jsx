@@ -41,10 +41,12 @@ const About = () => {
     variants={fadeIn("", "", 0.1, 1)}
     className="mt-4 text secondary text-[17px] max-w-3xl leading-[30px]"
     >
-      I'm a skilled software developer with experience in TypeScript, React, and Javascript,
-      and a passion for creating visually stunning and user-friendly web applications.
-      I'm a quick learner and collaborate closely with clients to create efficient,
-      scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+      I'm a dedicated software developer with a strong foundation in 
+      HTML, CSS, TypeScript, React, and JavaScript, and a passion for designing user-friendly and scalable web applications. 
+      With a keen eye for detail and a commitment to continuous learning, 
+      I thrive in collaborative environments where I can contribute to impactful projects. 
+      My goal is to solve real-world challenges by creating innovative solutions that prioritize both functionality and user experience.
+    If I sound like someone you'd like to work with, feel free to reach out through the contact form below—I’d love to hear from you! 
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

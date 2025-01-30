@@ -8,24 +8,24 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
+import python from "./tech/python.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import sql from "./tech/sql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import kotlin from "./tech/kotlin.png";
+import java from "./tech/java.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import nav from "./company/nav.jpg";
+import hoyskolenKristiania from "./company/hk.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -40,22 +40,23 @@ export {
   menu,
   close,
   css,
-  docker,
+  python,
   figma,
   git,
   html,
   javascript,
-  mongodb,
+  sql,
+  java,
   nodejs,
   reactjs,
-  redux,
+  kotlin,
   tailwind,
   typescript,
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
+  nav,
+  hoyskolenKristiania,
   carrent,
   jobit,
   tripguide,
